@@ -15,7 +15,7 @@ import warnings
 
 warnings.filterwarnings('ignore')
 
-NEWSAPI_KEY = '3f7849a0bf774a32ace3eb31de0b1814'
+NEWSAPI_KEY = st.secrets["NEWSAPI_KEY"]
 
 
 # Using NewsAPI to acquire headlines pertaining to the stock the user is interested in
